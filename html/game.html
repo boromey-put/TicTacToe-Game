@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/strategic-plan.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XO Game</title>
+</head>
+<body>
+<div class="game-container">
+    <h1>Tic Tac Toe</h1>
+
+    <div class="board">
+        <div id="winLine" class="win-line"></div>
+        <div class="cell" onclick="playMove(0)"></div>
+        <div class="cell" onclick="playMove(1)"></div>
+        <div class="cell" onclick="playMove(2)"></div>
+
+        <div class="cell" onclick="playMove(3)"></div>
+        <div class="cell" onclick="playMove(4)"></div>
+        <div class="cell" onclick="playMove(5)"></div>
+
+        <div class="cell" onclick="playMove(6)"></div>
+        <div class="cell" onclick="playMove(7)"></div>
+        <div class="cell" onclick="playMove(8)"></div>
+    </div>
+
+    <p id="status">Player X's turn</p>
+    <button onclick="resetGame()">Restart Game</button>
+
+</div>
+
+    <script src="../javascript/action.js"></script>
+</body>
+</html>
